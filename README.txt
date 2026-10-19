@@ -1,21 +1,37 @@
-Haoyi Wang — GitHub Pages Site (V9 + Tech HW Favicon)
+Haoyi Wang - GitHub Pages SEO deployment (2026-10-18)
+=========================================================
+Public URL: https://renansence.github.io/
+GitHub repository: https://github.com/renansence/renansence.github.io
 
-1. Extract this ZIP file.
-2. Go to https://github.com/renansence/renansence.github.io
-3. Choose Add file > Upload files and upload ALL the files in this folder
-   to the repository root (not the ZIP itself).
-4. Commit changes. If Pages is not active, enable Settings > Pages:
-   Deploy from a branch > main > /(root).
-5. Open https://renansence.github.io/ and hard-refresh (Ctrl+Shift+R)
-   or reopen in a private browser window if the previous favicon is cached.
+IMPORTANT: Upload ALL files in this ZIP to the ROOT of the existing
+repository (alongside index.html, not inside a folder). Commit changes.
+The visible website, layout, favicon, sections, links, and the
+public-safe resume.pdf are preserved from the previous build.
 
-Contents:
-- index.html : unchanged V9 website content, with new favicon references
-- favicon.ico : browser icon (multi-size)
-- favicon-tech-32.png : small favicon
-- favicon-tech-512.png : large icon / future reuse
-- apple-touch-icon.png : iOS browser icon
-- resume.pdf : public resume supplied by the previous website package
+NEW SEO FILES
+-------------
+* sitemap.xml - tells crawlers the canonical public homepage URL
+* robots.txt - allows crawling and announces the sitemap
+* haoyi-wang-profile.jpg - crawlable portrait for search/profile/social cards
+* index.html - updated title/description/canonical, Open Graph, Twitter,
+  and schema.org ProfilePage/Person structured data
 
-Note: If the repository still contains the older favicon.svg, it can remain;
-index.html no longer references it. You may remove it to keep the repo tidy.
+AFTER DEPLOYMENT
+----------------
+1. Verify the URLs in a browser:
+   https://renansence.github.io/
+   https://renansence.github.io/sitemap.xml
+   https://renansence.github.io/robots.txt
+   https://renansence.github.io/haoyi-wang-profile.jpg
+2. Open https://search.google.com/search-console
+   Add URL prefix property https://renansence.github.io/
+   Complete verification using an HTML file or meta tag from Google.
+   (A verification code is intentionally not invented here.)
+3. Under Sitemaps, submit sitemap.xml
+4. Inspect https://renansence.github.io/ using URL Inspection,
+   and request indexing if appropriate.
+5. Add the homepage link to Google Scholar Homepage, LinkedIn Website,
+   and eligible Dartmouth profile pages.
+
+Indexing/ranking is controlled by search engines. A sitemap or indexing
+request does not guarantee instant indexing or a particular search rank.

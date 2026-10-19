@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://renansence.github.io/sitemap.xml
